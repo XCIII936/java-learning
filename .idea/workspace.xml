@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a92e2e8-ed5d-4d27-88df-2f8bbc4ef99f" name="更改" comment="2-test">
-      <change afterPath="$PROJECT_DIR$/src/testif.java" afterDir="false" />
+    <list default="true" id="8a92e2e8-ed5d-4d27-88df-2f8bbc4ef99f" name="更改" comment="1-testif">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/11651/Desktop/java-code/java-homework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +79,10 @@
       <updated>1749700504445</updated>
       <workItem from="1749700505382" duration="3657000" />
       <workItem from="1750479558207" duration="1912000" />
-      <workItem from="1750562480185" duration="1063000" />
+      <workItem from="1750562480185" duration="1270000" />
+      <workItem from="1750649301342" duration="619000" />
+      <workItem from="1750665440693" duration="97000" />
+      <workItem from="1750665562477" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="1-test">
       <option name="closed" value="true" />
@@ -97,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750563106759</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1-testif">
+      <option name="closed" value="true" />
+      <created>1750563614975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750563614975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1-test" />
     <MESSAGE value="2-test" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-test" />
+    <MESSAGE value="1-testif" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-testif" />
   </component>
 </project>
