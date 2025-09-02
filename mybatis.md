@@ -1,3 +1,6 @@
+我的maven仓库配置在D:\software\apache-maven-3.9.11-bin\apache-maven-3.9.11\mvn_resp
+idea记得在设置中修改路径
+
 mybatis官网:
 https://mybatis.net.cn/getting-started.html
 
@@ -53,3 +56,32 @@ public static void main(String[] args) throws IOException {
 
 
 先点 修改选项 -> 再勾选 添加 VM 选项 -> 最后在出现的框里填参数。
+
+
+在xml配置中environment可以多个配置不同数据源比如测试和开发用不同数据库就配置两个environment用
+
+default切换
+用<typeAliases>来将一串包名取别名
+如:
+![alt text](images\6.png)
+
+MyBatis完成增删改查三步:编写接口方法->编写SQL->执行方法
+
+数据库表的字段名称和实体类属性名称不一样就不能自动封装数据
+解决方法:1.起别名 sql片段来减少每次查询的内容 2.resultMap*** 
+
+![alt text](images\7.png)
+
+resultType改为resultMap
+
+其中id:唯一标识 type:映射的类型
+column:表的列名  property:实体类的属性名
+
+resultMap:1.定义resultMap标签 2.在 select标签中，使用resultMap属性替换resultType属性
+
+#{}防止sql注入 会替换为?
+
+特殊字符处理:
+1.转义字符 <为  & l t ;  (无空格)
+2.CDATA区 输入CD 跳转将字符写入
+
