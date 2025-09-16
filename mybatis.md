@@ -135,7 +135,7 @@ resultMap:1.定义resultMap标签 2.在 select标签中，使用resultMap属性�
 ![alt text](images\16.png)
 标签 where id in(foreach...);->第一种
 第二种:
-foreach collection="ids" item="id" separator="," open="(" close=")"> #{id}
+foreach collection="ids" item="id" separator="," open="(" close=")" #{id}
 其中open 和 close 表示在开始和结束加( ) separator 表示分隔符
 mybatis会将数组参数封装成一个Map集合
 默认:array键 值为数组
@@ -148,6 +148,8 @@ MyBatis封装参数 都使用@Param注解修改 可读性高
 
 注解完成crud简单 配置文件xml完成复杂sql(动态...)
 ![alt text](images\19.png)
+
+
 
 
 
