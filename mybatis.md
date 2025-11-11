@@ -61,9 +61,11 @@ public static void main(String[] args) throws IOException {
 在xml配置中environment可以多个配置不同数据源比如测试和开发用不同数据库就配置两个environment用
 
 default切换
-用<typeAliases>来将一串包名取别名
+用<typeAliases>来将一串包名取别名 在mybatisconfig配置文件
 如:
 ![alt text](images\6.png)
+
+## 在查询时记得要别名 resultMap 在实体类重写toString方法
 
 MyBatis完成增删改查三步:编写接口方法->编写SQL->执行方法
 

@@ -1,3 +1,7 @@
+解决URL路径 运行->编辑配置->部署->下面看到运用上下文
+
+动态调试 部署服务器 启用调试功能 选择更新类和资源 F5刷新界面
+
 ![alt text](images-HTTP\1.png)
 
 请求数据格式 请求行 头 体
@@ -68,7 +72,7 @@ idea用模版创建 右键包->新建->Servlet
 ![alt text](images-HTTP\17.png)
 
 中文乱码解决方案
-Post:request.etCharacterEncoding("UTF-8")
+Post:request.setCharacterEncoding("UTF-8")
 URL编码:字符串转为二进制 每个字节转为2个16进制数并在前面加上%
 Get: new String(username.getBytes("ISO-8849-1"),"UTF-8");
 ![alt text](images-HTTP\18.png)
