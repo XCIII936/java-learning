@@ -265,3 +265,4 @@ beanaop.xml配置文件加入
 配置aop五种通知类型
 ![alt text](images-Spring\30.png)
 ![alt text](images-Spring\31.png)
+
